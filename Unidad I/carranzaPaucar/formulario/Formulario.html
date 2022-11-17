@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/miEstilo.css">
+    <link rel="shortcut icon" href="imagFormu/iconoFormu.jpg" />
+    <title>Encuesta Cinematografica</title>
+
+</head>
+
+<body>
+    <img src="imagFormu/Academy_Award.webp" height="400px" width="300px" title="Oscar">
+    <div id="container">
+    <header>
+        <h2>Encuesta de Cine:Nominados al Oscar 2018</h2>
+    </header>
+   
+
+    <main>
+        
+            <form id="formulario1" name="formulario1" method="post" action="data.php">
+
+                <fieldset id="Datos Personales">
+                    <legend> Datos personales</legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" value="" maxlength="25" name="apellido" id="apellido"> <br>
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" value="" maxlength="25" name="apellido" id="apellido"> <br>
+
+                    <label for="dni">DNI</label>
+                    <input type="text" name="dni" id="dni" maxlength="9"><br>
+
+
+                    <label for="edad">Edad</label>
+                    <input type="text" id="edad" name="edad" min="0" max="100"><br>
+
+                    <label for="ice-cream-choice">Sexo</label>
+                    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                    
+                    <datalist id="ice-cream-flavors">
+                        <option value="Masculino">
+                        <option value="Femenino">
+                        
+                    </datalist>
+                </fieldset>
+            </form>
+        
+
+
+        
+            <fieldset id="Mejor_Pelicula">
+                <legend> Mejor Pelicula</legend>
+                <input type="radio" name="pelicula" values="11"> Call Me By Your Name<br>
+                <input type="radio" name="pelicula" values="22"> Dunkerque<br>
+                <input type="radio" name="pelicula" values="33"> Dejame Salir<br>
+                </fieldse>
+        
+
+
+        
+            <fieldset id="Selecciona_las_peliculas_que_no_hayas_visto">
+                <legend> Selecciona las peliculas que no hayas visto</legend>
+                <input type="checkbox" name="pelicula" values="11"> El hilo invisibles<br>
+                <input type="checkbox" name="pelicula" values="22"> El instante más oscuro<br>
+                <input type="checkbox" name="pelicula" values="33"> Tres anuncios a las afueras<br>
+                <input type="checkbox" name="pelicula" values="33"> La forma del agua<br>
+                <input type="checkbox" name="pelicula" values="33"> Lady Bird<br>
+                </fieldse>
+      
+
+        
+            <fieldset id="Grupo_argumento">
+                <legend> Argumento de tu Pelicula Preferida</legend>
+                <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+                </fieldse>
+                <br>
+       
+
+        </form>
+        <div id="botones">
+            <input type="reset" class="btn" values="Borrar formulario">
+            <input type="submit" class="btn" values="Enviar">
+        </div>
+    </main>
+</div>
+</body>
+
+</html>

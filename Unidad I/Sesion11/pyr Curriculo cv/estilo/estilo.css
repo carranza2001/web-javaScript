@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+
+div {
+    background-color: white;
+    border: ipx solid black;
+    padding: 0px;
+    width: 0%;
+    margin: 0 auto;
+}
+
+#titulo{
+    text-align: center;
+    background-color: blue;
+}
+
+#enlaces{
+    background-color: black;
+    color: white;
+    text-align: end;
+    font-size: 10px;
+    word-spacing: 0.65em
+}
+
+legend {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 20px;
+}
+#imagen{
+    background-color: blue;
+}
+
+
+thead,
+h1 {
+    color: red;
+}
+h2{
+    color: yellow;
+    font-family: broadway;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+ul{    
+    text-align: justify;
+}
+fieldset{
+    background-color: #74b49b;
+}

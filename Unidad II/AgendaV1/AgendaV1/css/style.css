@@ -1,0 +1,9 @@
+input {
+    margin-bottom: 10px;
+}
+.datos-entrada {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,35 @@
+/* Pseudoelementos */
+
+p::first-letter{
+    font-size: 3rem;
+}
+
+.seudoele{
+    border: 2px solid black;
+    width: 10%;
+    text-align: left;
+}
+.seudoele::before{
+    content: 'hola';
+    background-color: red;
+}
+.seudoele::after{
+    content: 'Perú';
+    background-color: red;
+}
+
+/* PseudoClases*/
+div:hover{
+background-color: yellow;;
+}
+a:hover{
+    color: red; 
+}
+/*solo para etiquetas de tipo enlace*/
+
+a:focus{
+    color: greenyellow;
+}
+a:active{
+    color: blueviolet;
+}

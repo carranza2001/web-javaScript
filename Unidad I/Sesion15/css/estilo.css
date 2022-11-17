@@ -1,0 +1,44 @@
+ body {
+     color: white;
+     margin: 0%;
+
+ }
+
+ header {
+     background-color: blueviolet;
+     height: 200px;
+
+
+ }
+
+ nav {
+     background-color: cornflowerblue;
+     width: 15%;
+
+ }
+
+ section {
+     background-color: indigo;
+     width: 70%;
+
+
+ }
+
+ aside {
+     background-color: darkmagenta;
+     width: 15%;
+
+ }
+
+ footer {
+     background-color: darkorchid;
+     clear: left;
+     height: 80px;
+ }
+
+ nav,
+ section,
+ aside {
+     float: left;
+     height: 500px;
+ }

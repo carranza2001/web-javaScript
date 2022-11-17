@@ -1,0 +1,18 @@
+body {
+    background: url(../img/entell.webp);
+    border: 0px solid black;
+    padding: 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+#contenedor{
+    background-color: white;
+    border: 0px solid black;
+    padding: 0px;
+    width: 550px;
+    margin: 0 auto;
+}
+h1{
+    background-color: blue;
+    color: white;
+}

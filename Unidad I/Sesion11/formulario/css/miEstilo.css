@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#cabecera{
+    width: 450px;
+       
+    font-family: 'calibri';
+    color: white;
+}
+#imagen{
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;   
+    
+}
+
+#Contenedor{
+    
+    width: 400px;
+    background: #24303c;
+    padding: 30px;    
+    margin-top: 5px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+#Contenedor2{
+    width: 400px;
+    background: #24303c;    
+    font-family: 'calibri';
+    color: white;
+}
+#Contenedor4{
+    width: 400px;
+    background: #24303c;    
+    font-family: 'calibri';
+    color: white;
+}
+#Contenedor3{
+    width: 400px;
+    background: #24303c;    
+    font-family: 'calibri';
+    color: white;
+}
+#botones{
+    width: 400px;
+    background: #24303c;    
+    font-family: 'calibri';
+    color: white;
+}

@@ -1,0 +1,45 @@
+
+body{
+margin: 0%;
+}
+
+header {
+    background-color: yellow;
+    height: 80px;
+    ;
+}
+
+nav {
+    background-color: greenyellow;
+    width: 25%;
+  
+}
+
+section {
+    background-color: gainsboro;
+    width: 75%;
+    
+}
+
+footer {
+    background-color: aquamarine;
+    clear: left;
+    height: 50px;
+}
+
+nav,
+section {
+    float: left;
+    height: 630px;
+    
+}
+li{
+    list-style: none;
+}
+p{
+    padding-left: 15px;
+    
+}
+h1{
+    margin-top: 0px;;
+}

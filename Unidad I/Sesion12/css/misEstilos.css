@@ -1,0 +1,30 @@
+*/*Ejercicio 01
+h1{
+    color: rgb(252, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+}*/
+
+/* Herencia 
+body{
+    color: blue;
+
+}*/
+
+body {
+font-family: Arial;
+color: black;
+}
+h1{
+    font-family: Verdana;
+}
+
+p{
+    font-family: arial;
+
+}
+
+p{
+    color: red;
+}
