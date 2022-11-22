@@ -1,8 +1,19 @@
 html,
 body{
     height: 100%;
+    
+}
+/*Portada */
+#cover {
+    background: #222 url(../img/imagen1.0.jpg) center no-repeat;
+    background-size: 100%;
+    color: black;    
+    height: 100%;
+    text-align: center;
 }
 
-#cover{
-    background-size: #222 url;
+#cover-texto {
+    width: 100%;
+
 }
+
